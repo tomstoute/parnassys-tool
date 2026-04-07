@@ -16,7 +16,7 @@ const App = () => {
   const [subject, setSubject] = useState('');
   const [libsLoaded, setLibsLoaded] = useState(false);
 
-  const apiKey = "AIzaSyDoUMGHKmCKEMY9gBxmG7FOnf4mfihFxlg"; // De omgeving injecteert de API-key automatisch bij uitvoering
+  const apiKey = "AIzaSyAvybS3_WYo2-sh4H2qWZClKERK1Eaa14Y"; // De omgeving injecteert de API-key automatisch bij uitvoering
 
   // Dynamisch laden van benodigde bibliotheken (PDF.js en SheetJS)
   useEffect(() => {
