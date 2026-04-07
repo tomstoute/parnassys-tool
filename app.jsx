@@ -1,5 +1,12 @@
 const { useState, useEffect } = React;
-const { Upload, FileSpreadsheet, Loader2, CheckCircle2, AlertCircle, Download, FileText, Activity } = LucideReact;
+const Upload = () => <span>📤</span>;
+const FileSpreadsheet = () => <span>📊</span>;
+const Loader2 = () => <span>⏳</span>;
+const CheckCircle2 = () => <span>✅</span>;
+const AlertCircle = () => <span>⚠️</span>;
+const Download = () => <span>⬇️</span>;
+const FileText = () => <span>📄</span>;
+const Activity = () => <span>⚡</span>;
 const App = () => {
   const [file, setFile] = useState(null);
   const [status, setStatus] = useState('idle'); // idle, loading-libs, extracting, analyzing, complete, error
